@@ -20,6 +20,9 @@ func main() {
 	fmt.Println("a =", a)
 	c := 30 //c必须是一个没有初始化过的值，如果在前面初始化过，就会报错 no new variables on left side of :=
 	fmt.Printf ("now c type is %T\n", c) // %T\n表示显示这个变量的属性
+	d := 40
+	fmt.Println ("d =", d)
+	fmt.Printf ("d =", d) //printf和println的区别
 //最终打印以下内容
 /*
 	helloworld
@@ -27,6 +30,8 @@ func main() {
 	b = 2
 	a = 3
 	now c type is int
+	d = 40
+	d =%!(EXTRA int=40)%
 */
 }
 
